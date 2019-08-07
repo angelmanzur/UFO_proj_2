@@ -27,7 +27,7 @@ The census data we used contains the total population for each of the 50 US stat
 To use the census data we groupd out UFO data by state and by year and counted how many sightings happened between 2010 and 2018. 
 
 #### Collecting an cleaning the data.
-For the ufo data, we scrapped the data from the website. For this analysis we scrapped the pages summarizing the sightings per month [like this one](http://www.nuforc.org/webreports/ndxe201905.html) instead of scrapping each individual report, as shown [here](http://www.nuforc.org/webreports/146/S146041.html). The downside of scrapping the summary table,  is that we do not have the full description of the event, so will not use this informatin for this analysis. Below is a sample of the data
+For the ufo data, we scrapped the data from the website. For this analysis we scraped the pages summarizing the sightings per month [like this one](http://www.nuforc.org/webreports/ndxe201905.html) instead of scrapping each individual report, as shown [here](http://www.nuforc.org/webreports/146/S146041.html). The downside of scrapping the summary table,  is that we do not have the full description of the event, so will not use this informatin for this analysis. Below is a sample of the data
 
 | |	Date_Time	|City|	State	|Shape|	Duration	|Summary	|Date_Posted|
 |-----:|--------:|--------:|----:|--------:|--------:|------------:|--------:|
